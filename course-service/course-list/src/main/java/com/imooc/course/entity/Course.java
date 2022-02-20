@@ -12,7 +12,7 @@ import java.io.Serializable;
  * @Version: V1.0
  **/
 
-public class Course implements Serializable {
+public class Course {
     private Integer id;
     private Integer courseId;
     private String courseName;

@@ -14,6 +14,6 @@ import java.util.List;
 
 public interface CourseListService {
 
-    List<Course> getCourseList();
+    List<Course> courseList();
 
 }

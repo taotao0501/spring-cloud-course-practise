@@ -23,7 +23,7 @@ public class CourseListServiceImpl implements CourseListService {
     CourseMapper courseMapper;
 
     @Override
-    public List<Course> getCourseList() {
+    public List<Course> courseList() {
         return courseMapper.findValidCourses();
     }
 }
